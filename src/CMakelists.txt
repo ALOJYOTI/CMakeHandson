@@ -1,0 +1,4 @@
+add_library(Helloworld STATIC my_lib.cpp)
+
+target_include_directories(Helloworld PUBLIC "./")
+#as .h files are in same dir
