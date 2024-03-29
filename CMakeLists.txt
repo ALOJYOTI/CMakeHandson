@@ -6,7 +6,7 @@ project(
     LANGUAGES C CXX
 )
 
-add_subdirectory(src)
+add_subdirectory(Helloworld)
 add_subdirectory(app)
 
 target_link_libraries(Executable PUBLIC Helloworld)
